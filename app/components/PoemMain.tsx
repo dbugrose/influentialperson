@@ -10,9 +10,10 @@ function PoemMain() {
   const [isModal3Open, setIsModal3Open] = useState(false);
 
   return (
-    <div className="bg-[#FBF2FF] border-2 border-[#583184] rounded-xl w-100vw text-center p-4">
-      <div className="flex justify-around">
-      <Button onClick={() => setIsModal1Open(true)} className="bg-[#583184]!">Wild Geese</Button>
+    <div className="bg-[#FBF2FF] border-2 border-[#583184] rounded-xl w-100vw text-center">
+      <h1 className='text-3xl mb-4 mt-4'>Selected Poems</h1>
+      <div className="flex xl:justify-around lg:justify-around md:justify-around flex-col  xl:flex-row lg:flex-row md:flex-row p-4">
+      <Button onClick={() => setIsModal1Open(true)} className="bg-[#583184]! mt-4">Wild Geese</Button>
       <Modal show={isModal1Open} onClose={() => setIsModal1Open(false)}>
         <ModalHeader className="bg-[#583184]! border-2 border-[#583184]! rounded-xl w-100vw text-center p-4 text-black!">Wild Geese by Mary Oliver</ModalHeader>
         <ModalBody className="bg-[#FBF2FF] border-2 border-[#583184] rounded-xl w-100vw text-center p-4 text-black!">
@@ -41,7 +42,7 @@ function PoemMain() {
           <Button className="bg-[#583184]! " onClick={() => setIsModal1Open(false)}>Close</Button>
         </ModalFooter>
       </Modal>
-      <Button onClick={() => setIsModal2Open(true)} className="bg-[#583184]!">Invitation</Button>
+      <Button onClick={() => setIsModal2Open(true)} className="bg-[#583184]!  mt-4">Invitation</Button>
       <Modal show={isModal2Open} onClose={() => setIsModal2Open(false)}>
         <ModalHeader  className="bg-[#583184]! border-2 border-[#583184]! rounded-xl w-100vw text-center p-4 text-black!">Invitation by Mary Oliver</ModalHeader>
         <ModalBody  className="bg-[#FBF2FF] border-2 border-[#583184] rounded-xl w-100vw text-center p-4 text-black!">
@@ -111,7 +112,7 @@ function PoemMain() {
           <Button className="bg-[#583184]!" onClick={() => setIsModal2Open(false)}>Close</Button>
         </ModalFooter>
       </Modal>
-      <Button onClick={() => setIsModal3Open(true)} className="bg-[#583184]!">The Summer Day</Button>
+      <Button onClick={() => setIsModal3Open(true)} className="bg-[#583184]!  mt-4">The Summer Day</Button>
       <Modal show={isModal3Open} onClose={() => setIsModal3Open(false)}>
         <ModalHeader className="bg-[#583184]! border-2 border-[#583184]! rounded-xl w-100vw text-center p-4 text-black!">The Summer Day by Mary Oliver</ModalHeader>
         <ModalBody className="bg-[#FBF2FF] border-2 border-[#583184] rounded-xl w-100vw text-center p-4 text-black!">

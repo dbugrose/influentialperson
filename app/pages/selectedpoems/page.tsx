@@ -8,7 +8,6 @@ const SelectedPoems = () => {
  <div className="flex min-h-screen items-center justify-center font-sans text-black mb-4">
       <main className="max-w-175">
         <PoemImage/>
-        <h1 className="text-center text-3xl mb-4">Selected Poems</h1>
         <PoemMain/>
     </main>
     </div>  )
