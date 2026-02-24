@@ -11,7 +11,7 @@ function NavLinks() {
             <NavbarCollapse>
                 <NavbarLink href="/" className="text-[#000000]!">Home</NavbarLink>
                 <NavbarLink href="/pages/accomplishments" className="text-[#000000]!">Accomplishments</NavbarLink>
-                <NavbarLink href="/pages/interests" className="text-[#000000]!">Interests</NavbarLink>
+                <NavbarLink href="/pages/influence" className="text-[#000000]!">Influence</NavbarLink>
                 <NavbarLink href="/pages/selectedpoems" className="text-[#000000]!">Selected Poems</NavbarLink>
             </NavbarCollapse>
         </Navbar>

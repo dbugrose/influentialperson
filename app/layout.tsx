@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[url(/assets/lavender-flowers-floral-pattern.jpg)] bg-repeat bg-size-[auto_100px]`}
       >
-        <NavLinks></NavLinks>
+        <NavLinks/>
         {children}
       </body>
     </html>

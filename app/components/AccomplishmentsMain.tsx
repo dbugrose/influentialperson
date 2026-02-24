@@ -2,7 +2,7 @@ import React from 'react'
 
 const AccomplishmentsMain = () => {
   return (
-    <div className="bg-[#FBF2FF] border-6 border-[#583184] rounded-xl w-100vw text-center p-4"><h2 className="text-2xl">Selected Awards and Honors</h2>
+    <div className="bg-[#FBF2FF] border-2 border-[#583184] rounded-xl w-100vw text-center p-4"><h2 className="text-2xl">Selected Awards and Honors</h2>
                     <br></br>
                     <ul>
                         <li>

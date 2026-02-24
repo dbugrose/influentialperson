@@ -1,5 +1,4 @@
 import Image from "next/image";
-import BackgroundImage from "./components/BackgroundImage";
 import HomeImage from "./components/HomeImage";
 import HomeMain from "./components/HomeMain";
 

@@ -9,7 +9,7 @@ const HomeImage = () => {
         alt="a smiling Mary Oliver in black and white"
         fill
         sizes= "(max-width: 768px) 100vw, 700px"
-        className="relative! border-6 border-[#583184] rounded-xl overflow-hidden mt-4 mb-4"
+        className="relative! border-2 border-[#583184] rounded-xl overflow-hidden mt-4 mb-4"
        />
 </div>
   )
